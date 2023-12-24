@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.nav #logo{
+    font-size: 2.8vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav input{
+    height: 3vw;
+    width: 30vw;
+    font-size: 1.3vw;
+    padding: 0 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    outline: none;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+.nav-part2 h2{
+    font-size: 1.5vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+.nav i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.nav button{
+    padding: 0.5vw 1.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    color: white;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: #eaebe8;
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.images{
+    height: 14vw;
+    width: 16vw;
+    padding: 1vw 2.5vw;
+    box-shadow: 0 4px 8px 0;
+    border-radius: 1vh;
+    margin: 1vw 0.5vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.images .about{
+    width: 100%;
+    font-size: 1.2vw;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+   
+}
+.images img{
+    height: 100%;
+    width: 100%;
+}
+.signup{
+    height: 32vw;
+    width: 35vw;
+    position: absolute;
+    z-index: 999;
+    right: 10%;
+    top: 5%;
+    transform: translateX(-50%,-50%);
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 1vw 1vw;
+    display: none;
+    
+}
+.signup .identity{
+    height: 5vw;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+}
+
+.signup .password{
+    height: 5vw;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.signup .conform-password{
+    height: 5vw;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.signup button{
+    background-color: seagreen;
+    padding: 0.8vw 4vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%,-50%);
+    border-radius: 1vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup p{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.signup input{
+    height: 3.5vw;
+    width: 20vw;
+    padding: 1vw 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+#footer{
+    height: 8vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EAEBE8;
+}
+#footer #arrow{
+    height: 3vw;
+    width: 4vw;
+    background-color: white;
+    border-radius: 50vw 50vw 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer #arrow i{
+    font-size: 2.9vw;
+    cursor: pointer;
+    
+}
+#footer #copyright{
+    height: 5vw;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#footer p{
+    font-size: 1.5vw;
+    font-weight: 700;
+}

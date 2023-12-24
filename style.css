@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.nav #logo{
+    font-size: 2.8vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav input{
+    height: 3vw;
+    width: 30vw;
+    font-size: 1.3vw;
+    padding: 0 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    outline: none;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+.nav-part2 h2{
+    font-size: 1.5vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+.nav i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.nav button{
+    padding: 0.5vw 1.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    color: white;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: orange;
+    cursor: pointer;
+}
+/*
+.signup{
+    height: 35vw;
+    width: 30vw;
+    position: absolute;
+    z-index: 999;
+    right: 10%;
+    top: 5%;
+    transform: translateX(-50%,-50%);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: none;
+    
+}
+*/
+.signup{
+    height: 32vw;
+    width: 35vw;
+    position: absolute;
+    z-index: 999;
+    right: 10%;
+    top: 5%;
+    transform: translateX(-50%,-50%);
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 1vw 1vw;
+    display: none;
+    
+}
+.signup .identity{
+    height: 5vw;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+}
+
+.signup .password{
+    height: 5vw;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.signup .conform-password{
+    height: 5vw;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.signup button{
+    background-color: seagreen;
+    padding: 0.8vw 4vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%,-50%);
+    border-radius: 1vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup p{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.signup input{
+    height: 3.5vw;
+    width: 20vw;
+    padding: 1vw 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+#page1{
+    
+    height: calc(100vh - 90px);
+    width: 100%;
+    background-color: #EAEBE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ #clothes{
+    height: 35vw;
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 grey;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#clothes #heading{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 7vw
+}
+#clothes #heading h1{
+    font-size: 4vw;
+    font-family: cursive;
+    font-weight: 900;
+}
+#clothes #heading button{
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    outline: none;
+    background-color: orange;
+    box-shadow: 0 4px 8px 0;
+    color: white;
+    cursor: pointer;
+}
+#clothes #heading button a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 800;
+    color: black;
+}
+#clothes #content{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw 2vw;
+    
+}
+#clothes #content .image{
+    height: 40%;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vw 2.8vw;
+    line-height: 1vw;
+}
+#clothes #content .image .about{
+    font-size: 1vw;
+    font-weight: 800;
+    display: flex;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#clothes #content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;    
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #EAEBE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #EAEBE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    height: 8vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EAEBE8;
+}
+#footer #arrow{
+    height: 3vw;
+    width: 4vw;
+    background-color: white;
+    border-radius: 50vw 50vw 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer #arrow i{
+    font-size: 2.9vw;
+    cursor: pointer;
+    
+}
+#footer #copyright{
+    height: 5vw;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#footer p{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+
+/*RESPONSIVENESS*/
+
+@media (max-width:600px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
