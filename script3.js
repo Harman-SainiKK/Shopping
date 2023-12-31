@@ -1,62 +1,62 @@
 var arr = [
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61-glkZF5TL._SX625_.jpg",
-        paragraph: "From &#8377 499",
+        paragraph: " &#8377 499",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51U7ifnvlhL._SX625_.jpg",
-        paragraph: "From &#8377 599",
+        paragraph: " &#8377 599",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61BwndehQ-L._SY625_.jpg",
-        paragraph: "From &#8377 699",
+        paragraph: " &#8377 699",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61x63wCTIIL._SY625_.jpg",
-        paragraph: "From &#8377 999",
+        paragraph: " &#8377 999",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61T31J0XDOL._AC_UL320_.jpg",
-        paragraph: "From &#8377 449",
+        paragraph: " &#8377 449",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71cflgAolqL._SY625_.jpg",
-        paragraph: "From &#8377 769",
+        paragraph: " &#8377 769",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/6143nGlNWKL._SY625_.jpg",
-        paragraph: "From &#8377 999",
+        paragraph: " &#8377 999",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/613JYxJjt2L._SY625_.jpg",
-        paragraph: "From &#8377 499",
+        paragraph: " &#8377 499",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71ZUdgFci0L._SY625_.jpg",
-        paragraph: "From &#8377 299",
+        paragraph: " &#8377 299",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61QJ+2lv8EL._SY625_.jpg",
-        paragraph: "From &#8377 399",
+        paragraph: " &#8377 399",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61FMl0cnaBL._SY575_.jpg",
-        paragraph: "From &#8377 799",
+        paragraph: " &#8377 799",
         icon: "ri-shopping-cart-2-line"
     },
     {
         photo: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61uNOuFK5yL._SY575_.jpg ",
-        paragraph: "From &#8377 1099",
+        paragraph: " &#8377 1099",
         icon: "ri-shopping-cart-2-line"
     }
 ]
